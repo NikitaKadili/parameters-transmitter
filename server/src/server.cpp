@@ -1,7 +1,5 @@
 #include "server.h"
 
-#include <bitset>
-
 UdpServer::UdpServer()
     : socket_(new QUdpSocket(this))
 { /* do nothing */ }
